@@ -1,0 +1,17 @@
+on:
+  workflow_dispatch:
+
+jobs:
+  job1: 
+    runs-on: ubuntu-22.04
+
+    steps:
+      - name: echooing
+        run: echo "hi imm surendra"
+      - name: 
+        run: mkdir surendra
+
+      - name: 
+        run: ls
+  
+    
